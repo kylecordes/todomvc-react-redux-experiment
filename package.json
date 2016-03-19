@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "tsc && browserify build/main.js >www/bundle.js",
-    "start": "live-server www"
+    "start": "live-server www",
+    "production": "tsc && browserify -g uglifyify build/main.js >www/bundle.js"
   },
   "author": "Kyle Cordes",
   "private": true,
@@ -26,6 +26,7 @@
     "rimraf": "^2.5.2",
     "typescript": "^1.8.9",
     "typings": "^0.7.9",
+    "uglifyify": "^3.0.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   }
