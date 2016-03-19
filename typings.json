@@ -1,0 +1,11 @@
+{
+  "ambientDependencies": {
+    "classnames": "registry:dt/classnames#0.0.0+20160316155526",
+    "lodash": "registry:dt/lodash#3.10.0+20160316155526",
+    "react": "registry:dt/react#0.14.0+20160316155526",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160316155526",
+    "react-redux": "registry:dt/react-redux#4.4.0+20160316155526",
+    "redux": "registry:dt/redux#1.0.0+20160317120654",
+    "redux-actions": "registry:dt/redux-actions#0.8.0+20160317120654"
+  }
+}
